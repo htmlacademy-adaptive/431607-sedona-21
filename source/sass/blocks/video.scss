@@ -1,0 +1,31 @@
+.video {
+  margin-bottom: 49px;
+}
+
+.video__figure {
+  margin: 0;
+  padding: 0;
+}
+
+.video__question {
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.video__about {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 266px;
+  line-height: 24px;
+  color: $darkgray;
+}
+
+.video__text {
+  text-align: center;
+}

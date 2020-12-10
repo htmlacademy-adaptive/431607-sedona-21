@@ -1,0 +1,32 @@
+.hotel-finder {
+  text-align: center;
+  margin-bottom: 49px;
+}
+
+.hotel-finder__title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+}
+
+.hotel-finder__subtitle {
+  margin: 0;
+  margin-bottom: 37px;
+  padding: 0;
+  line-height: 24px;
+  color: $darkgray;
+}
+
+.hotel-finder__button {
+  min-width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .hotel-finder__button {
+    min-width: 458px;
+  }
+}

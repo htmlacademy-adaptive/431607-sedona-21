@@ -1,0 +1,45 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  outline: 5px solid rgba(0, 255, 0, 0.8);
+  outline-offset: -5px;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  outline: 5px solid rgba(0, 255, 0, 0.8);
+  outline-offset: -5px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    position: relative;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    position: relative;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__list {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    display: flex;
+  }
+}
+
+.main-nav__toggle {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.page-body {
+  margin: 0 auto;
+  width: $mobile-width-only;
+}
+
+@media (min-width: $tablet-width) {
+  .page-body {
+    width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-body {
+    width: $desktop-width;
+  }
+}

@@ -1,0 +1,30 @@
+.page-footer {
+  text-align: center;
+}
+
+.page-footer__hashtag {
+  margin-bottom: 38px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.page-footer__title {
+  line-height: 26px;
+  color: $black;
+}
+
+.page-footer__copyright {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

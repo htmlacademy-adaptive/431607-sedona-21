@@ -1,0 +1,69 @@
+.field-text {
+  margin-bottom: 20px;
+}
+
+.field-text__radio {
+  font-size: $font-size-large;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.field-text__checkbox {
+  font-size: $font-size-large;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.field-text__value {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding-top: 19px;
+  padding-bottom: 17px;
+  padding-left: 22px;
+  font-family: $font-family-base;
+  font-size: $font-size-large;
+  font-weight: 700;
+  line-height: 26px;
+  color: $black;
+  background-color: $whitethree;
+}
+
+.field-text__value::placeholder {
+  font-family: $font-family-base;
+  font-size: $font-size-large;
+  font-weight: 700;
+  line-height: 26px;
+  color: $black;
+}
+
+.field-text__area {
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+  color: $black;
+}
+
+.field-text__area::placeholder {
+  font-size: $font-size-large;
+  font-weight: 700;
+  opacity: 1;
+  color: $black;
+}
+
+.field-text__label {
+  line-height: 26px;
+}
+
+.field-text__label-emotions {
+  font-size: $font-size-large;
+  font-weight: 700;
+}
+
+.field-text__description {
+  font-size: $font-size-large;
+  font-weight: 700;
+  color: $black;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
