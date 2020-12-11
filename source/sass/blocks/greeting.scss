@@ -1,0 +1,49 @@
+.greeting {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 389px;
+}
+
+@media (min-width: $tablet-width) {
+  .greeting {
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 389px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .greeting {
+    background-image: url("../img/bg-back-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 518px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .greeting__item-text {
+    width: 461px;
+    height: 349px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .greeting__item-text {
+    width: 459px;
+    height: 349px;
+  }
+}
+
+.greeting--inner-page {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}

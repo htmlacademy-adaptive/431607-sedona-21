@@ -1,0 +1,22 @@
+.map {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.map__fallback-link {
+  display: block;
+}
+
+@media (min-width: $tablet-width) {
+  .map__fallback-image {
+    width: 768px;
+    height: 350px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__fallback-image {
+    width: 1200px;
+    height: 350px;
+  }
+}

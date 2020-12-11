@@ -1,0 +1,45 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 265px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+  }
+}
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 27px;
+  padding: 0;
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+@media (min-width: $desktop-width) {
+  .intro__title {
+    font-size: 26px;
+  }
+}
+
+.intro__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+  color: $darkgray;
+}
+
+.intro__text {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  color: #333333;
+}
