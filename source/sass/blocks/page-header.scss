@@ -14,15 +14,17 @@
 @media (min-width: $tablet-width) {
   .page-header__logo {
     position: absolute;
-    left: 320px;
+    width: 101px;
     height: 84px;
+    left: 315px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-header__logo {
     position: absolute;
-    left: 520px;
+    width: 186px;
     height: 96px;
+    left: 475px;
   }
 }
