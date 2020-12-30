@@ -7,6 +7,13 @@
   text-align: center;
 }
 
+.intro-form {
+  width: 306px;
+  margin-bottom: 37px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
 @media (min-width: $tablet-width) {
   .intro {
     display: flex;
