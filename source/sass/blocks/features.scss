@@ -1,10 +1,6 @@
 .features {
-  margin: auto;
-  max-width: 240px;
-  margin-top: 26px;
-  margin-bottom: 38px;
+  padding: 35px 35px 35px 70px;
   text-align: left;
-  padding: 0;
   list-style: none;
 }
 
@@ -14,6 +10,14 @@
     grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
     max-width: 100%;
     text-align: center;
+    padding-left: 45px;
+    padding-right: 31px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .features__item--souvenirs {
+    order: 1;
   }
 }
 
@@ -35,10 +39,6 @@
 
 .features__item {
   background-color: $white;
-}
-
-.features__item:last-of-type {
-  width: 210px;
 }
 
 .features__item--house {
