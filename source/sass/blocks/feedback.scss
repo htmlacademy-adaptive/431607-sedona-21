@@ -1,9 +1,7 @@
 .feedback__fieldset {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   border: none;
-  outline: 2px solid green;
-  outline-offset: -2px;
 }
 
 .feedback__legend {
@@ -20,6 +18,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.feedback__item {
+  display: flex;
 }
 
 .feedback__note {

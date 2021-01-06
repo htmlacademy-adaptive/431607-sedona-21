@@ -18,6 +18,7 @@
   box-sizing: border-box;
   border: none;
   outline: none;
+  margin: 0;
   padding-top: 19px;
   padding-bottom: 17px;
   padding-left: 22px;
@@ -52,6 +53,8 @@
 }
 
 .field-text__label {
+  align-self: center;
+  margin-right: 14px;
   line-height: 26px;
 }
 
