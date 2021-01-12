@@ -73,7 +73,7 @@
 }
 
 @media (min-width: $tablet-width) {
-  .advantages__wrapper--revers {
+  .advantages__text-wrapper--reverse {
     grid-template-areas: "image image title";
   }
 }

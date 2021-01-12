@@ -3,22 +3,17 @@
   flex-direction: column;
   margin: 0 auto;
   margin-bottom: 10px;
-  width: 265px;
   text-align: center;
 }
 
 .intro-form {
-  width: 306px;
   margin-bottom: 37px;
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 @media (min-width: $tablet-width) {
   .intro {
     display: flex;
     justify-content: space-between;
-    width: 520px;
   }
 }
 
